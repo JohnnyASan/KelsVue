@@ -1,3 +1,60 @@
+h1 {
+  font-family: arial;
+}
+
+header {
+  background-color: #2e333a;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
 body {
   background-color: #d8a715;
+  font-family: arial;
+  background-image: url(https://img.icons8.com/ios/26/000000/k-filled.png);
+  background-repeat: no-repeat;
+}
+
+section {
+  display: -webkit-flex;
+  display: flex;
+  flex:4;
+  background-color: black;
+  background-image: linear-gradient(to right, rgb(23,21,20) , rgb(14,15,13));
+}
+.leftPhoto {
+  max-width: 60%;
+  height: auto;
+}
+
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  color: white;
+  padding: 10px;
+  margin:auto;
+  margin-right: 20px;
+  margin-left: 30px;
+}
+
+.intro {
+  font-size: 115%;
+}
+.demo {
+  text-align: center;
+  background-color: ;
+}
+
+.questions {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin: 0px;
 }

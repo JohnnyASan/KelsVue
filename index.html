@@ -5,13 +5,16 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Kelsie Elena, Actress, Vocal Performer, Dancer, Mom.</h1>
+    <header>
+    <h1>Kelsie Elena <br> Performer, Model, Social Media Influencer</h1>
+  </header>
 
-    <section class="welcomeAbout">
+    <section>
       <div class="leftPhoto">
+        <img src="images/Kellow.jpg" alt="Headshot of Acress Kelsie Sanabria" style="width:750px"/>
       </div>
-      <div class="rightAbout">
-        <p>
+      <article>
+        <p class="intro">
           Stuff about Kelsie. Stuff about Kelsie. Stuff about Kelsie.
           Stuff about Kelsie. Stuff about Kelsie. Stuff about Kelsie.
           Stuff about Kelsie. Stuff about Kelsie. Stuff about Kelsie.
@@ -21,18 +24,30 @@
           Stuff about Kelsie. Stuff about Kelsie. Stuff about Kelsie.
           Stuff about Kelsie. Stuff about Kelsie. Stuff about Kelsie.
         </p>
-      </div>
+      </article>
     </section>
-    <h2>Projects</h2>
-    <div id="#questions">
-      <input type="text">
-      <button>Submit Question</button>
+    <div class="demo">
+      <h2>Check out my demo reel:</h2>
+      <video width="320" height="240" controls>
+      <source src="Actor Film Reel, Kelsie Elena.mp4" type="video/mp4">
+
+      Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="questions">
+      <div id="#questions">
+        <h2>Ask me something</h2>
+        <input type="text">
+        <button>Submit Question</button>
+      </div>
     </div>
     <footer>
     <div class="footer">
+      <p />
       <p>
         Johnny's Github <a href="https://github.com/BYU-CS-260-Winter-2019/lab-3-JohnnyASan/blob/master/TUTORIAL.md">here</a>.
       </p>
+      <p />
     </div>
   </footer>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.2/dist/vue.js"></script>

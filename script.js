@@ -1,21 +1,24 @@
-let questions = new Vue({
-  el: '#questions',
+let app = new Vue({
+  el: '#app',
   data: {
     addedName: '',
     addedQuestion: '',
-    questions:{
-      upVotes:'',
-      downVotes:'',
-      questionAsked:'',
-    },
+    questions: {},
 
   },
   created() {
 
   },
   methods: {
-
-  }
-
+    askQuestion() {
+      //Vue.set(app.questions, new Array);
+      this.questions.push({
+        author: this.addedName,
+        text: this.addedQuestion,
+      });
+      this.addedName = '';
+      this.addedQuestion = '';
+    },
+  },
 
 });

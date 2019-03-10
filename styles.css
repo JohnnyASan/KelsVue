@@ -13,19 +13,19 @@ header {
 body {
   background-color: #d8a715;
   font-family: arial;
-  background-image: url(https://img.icons8.com/ios/26/000000/k-filled.png);
-  background-repeat: no-repeat;
+  /* background-image: url(https://img.icons8.com/ios/26/000000/k-filled.png);
+  background-repeat: no-repeat; */
 }
 
 section {
   display: -webkit-flex;
   display: flex;
   flex:4;
-  background-color: black;
-  background-image: linear-gradient(to right, rgb(23,21,20) , rgb(14,15,13));
+
+
 }
 .leftPhoto {
-  max-width: 60%;
+  max-width: 50%;
   height: auto;
 }
 
@@ -38,6 +38,7 @@ article {
   margin:auto;
   margin-right: 20px;
   margin-left: 30px;
+  background-color: black;
 }
 
 .intro {

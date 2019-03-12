@@ -3,12 +3,9 @@ let app = new Vue({
   data: {
     addedName: '',
     addedQuestion: '',
-    questions: {},
-
+    questions:[]
   },
-  created() {
 
-  },
   methods: {
     askQuestion() {
       //Vue.set(app.questions, new Array);
